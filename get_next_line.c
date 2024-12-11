@@ -12,10 +12,6 @@
 
 #include "get_next_line.h"
 
-static int	ft_strchar(char *str, char c);
-static char	*ft_full_buffer_line(int fd, char *buffer, char *remaider);
-static char	*chack_if_newline(char *line);
-
 static int	ft_strchar(char *str, char c)
 {
 	unsigned int	i;
